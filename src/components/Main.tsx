@@ -62,7 +62,7 @@ class Main extends Component {
 
 					<footer className="footer fixed-bottom">
 						<div className="left"> <Clock format="YYYY-MM-DD HH:mm:ss" ticking timezone="Berlin" /> </div>
-						<div className="right"><a href="https://github.com/edwardtanguay/base-react-001">base-react-001</a> ver. 00.00.13</div>
+						<div className="right"><a href="https://github.com/edwardtanguay/base-react-001">base-react-001</a> ver. 00.00.14</div>
 					</footer>
 				</div>
 			</BrowserRouter>

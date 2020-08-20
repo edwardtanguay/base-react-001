@@ -25,8 +25,7 @@ This is a useful base site if you are new to React and want to start with a proj
 - helper library of useful functions (qtools)
 
 **Todo:**
-- [ ] testing and clean up of qstr
-- [ ] documentation
+- [ ] testing, documentation, question and clean up of qstr
 
 **Notes:**
 - The `/public/_redirects` file is for Netlify can process URL paths correctly, e.g. if you send someone a link to `https://base-react-001.netlify.app/flashcards`.
