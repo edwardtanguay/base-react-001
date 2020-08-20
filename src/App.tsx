@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.scss';
+import './datapod/styles/main.scss';
 import Main from './datapod/components/Main';
 
 function App() {
