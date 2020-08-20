@@ -48,7 +48,7 @@ class Main extends Component {
 						</div>
 					</nav>
 
-					<div className="content">
+					<div className="pageContent">
 						<Route exact path="/" component={Home} />
 						<Route exact path="/info" component={Info} />
 						<Route path="/news" component={News} />

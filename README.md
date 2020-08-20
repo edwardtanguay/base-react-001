@@ -22,10 +22,12 @@ This is a useful base site if you are new to React and want to start with a proj
 - one page reads from a JSON file and displays contents on page with graphics
 - pages have internal links from one page to the next
 - a customizable favicon that shows up in bookmarks and browser tabs
+- helper library of useful functions (qtools)
 - TODO: flex display in flashcards
 - TODO: fix footer
 - TODO: fix margin
 - TODO: get custom directory to work
+- TODO: testing
 
 ## Prerequisites
 

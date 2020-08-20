@@ -1,8 +1,8 @@
 export const qstr = require('../qtools/qstr');
 
-exports.contains = (line: string, searchText: string) => String(line).includes(searchText);
+qstr.contains = (line: string, searchText: string) => String(line).includes(searchText);
 
-exports.breakIntoParts = (main: string, delimiter = ',', maximumNumberOfParts = 0) => {
+qstr.breakIntoParts = (main: string, delimiter = ',', maximumNumberOfParts = 0) => {
   const escapedDelimiter = `\\${delimiter}`;
   const mask = '@@@MASK@@@';
   if (qstr.isEmpty(main)) {
@@ -45,7 +45,7 @@ exports.breakIntoParts = (main: string, delimiter = ',', maximumNumberOfParts = 
   return parts;
 };
 
-exports.isEmpty = (line: string) => {
+qstr.isEmpty = (line: string) => {
   if (line === undefined || line == null) {
     return true;
   }
@@ -56,20 +56,20 @@ exports.isEmpty = (line: string) => {
   return false;
 };
 
-exports.replaceAll = (text: string, search: string, replace: string) => {
+qstr.replaceAll = (text: string, search: string, replace: string) => {
   text = qstr.forceAsString(text);
   const text2 = text.split(search).join(replace);
   return text2;
 };
 
-exports.forceAsString = (stringOrOther: any) => {
+qstr.forceAsString = (stringOrOther: any) => {
   if (!qstr.isString(stringOrOther)) {
     return String(stringOrOther);
   }
   return stringOrOther;
 };
 
-exports.chopRight = (main: string, textToChop: string) => {
+qstr.chopRight = (main: string, textToChop: string) => {
   if (main.endsWith(textToChop)) {
     const len = textToChop.length;
     const mainLen = main.length;
@@ -80,9 +80,9 @@ exports.chopRight = (main: string, textToChop: string) => {
   return main;
 };
 
-exports.endsWith = (main: string, part: string) => main.endsWith(part);
+qstr.endsWith = (main: string, part: string) => main.endsWith(part);
 
-exports.chopLeft = (main: string, textToChop: string) => {
+qstr.chopLeft = (main: string, textToChop: string) => {
   if (main.startsWith(textToChop)) {
     const len = textToChop.length;
     const mainLen = main.length;
@@ -93,4 +93,8 @@ exports.chopLeft = (main: string, textToChop: string) => {
   return main;
 };
 
-exports.isString = (obj: any) => (typeof obj === 'string' || obj instanceof String);
+qstr.isString = (obj: any) => (typeof obj === 'string' || obj instanceof String);
+
+qstr.capitalizeFirstLetter = (line: string) => {
+	return line.charAt(0).toUpperCase() + line.slice(1);
+}

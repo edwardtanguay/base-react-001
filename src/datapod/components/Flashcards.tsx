@@ -30,9 +30,9 @@ class Flashcards extends Component<{}, MainState> {
 		return (
 			<div>
 				<Helmet>
-					<title>{ pageTitle }</title>
+					<title>{pageTitle}</title>
 				</Helmet>
-				<h2>Flashcards</h2>
+				<h2 className="pageTitle">Flashcards</h2>
 				<FlashcardList flashcards={filteredFlashcards} />
 			</div>
 		);

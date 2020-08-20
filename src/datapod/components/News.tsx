@@ -11,7 +11,7 @@ class News extends Component {
 				<Helmet>
 					<title>{pageTitle}</title>
 				</Helmet>
-				<h2>News</h2>
+				<h2 className="pageTitle">News</h2>
 				<p>This is another simple HTML page. For a more sophisticated page that reads data from a JSON file, see the <a href="flashcards">Flashcards</a> page.</p>
 			</div>
 		);

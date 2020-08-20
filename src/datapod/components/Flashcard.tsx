@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 
-const greyBox = require('datapod/images/greybox.png');
+const cardBack = require('datapod/images/card_back.png');
+const qstr = require('../qtools/qstr');
+
 
 interface IFlashcard {
 	category: string,
+	kind: string,
 	front: string,
 	back: string
 }
@@ -11,12 +14,16 @@ interface IFlashcard {
 class Flashcard extends Component<IFlashcard> {
 	render() {
 		return (
-			<figure className="flashcard">
-				<div className="category">{this.props.category}</div>
-				<div className="front">{this.props.front}</div>
-				<div className="back">{this.props.back}</div>
-				<img src={greyBox} alt="greybox" />
-			</figure>
+			<div className="flashcard">
+				<div className="cardArea">
+					<img src={cardBack} alt="greybox" />
+				</div>
+				<div className="infoArea">
+					<div className="categoryKind"><span className="category">{this.props.category}</span> {qstr.capitalizeFirstLetter(this.props.kind)} </div>
+					<div className="front">{qstr.capitalizeFirstLetter(this.props.front)}</div>
+					<div className="back"><span>{this.props.back}</span></div>
+				</div>
+			</div>
 		)
 	}
 }

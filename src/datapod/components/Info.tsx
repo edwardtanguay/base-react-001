@@ -9,7 +9,7 @@ class Info extends Component {
 				<Helmet>
 					<title>{pageTitle}</title>
 				</Helmet>
-				<h2>Info</h2>
+				<h2 className="pageTitle">Info</h2>
 				<p>This is a simple HTML page much like the <a href="news">News</a> page.</p>
 			</div>
 		);

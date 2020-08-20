@@ -4,6 +4,7 @@ import Flashcard from './Flashcard';
 interface IFlashcard {
 	id: number,
 	category: string,
+	kind: string,
 	front: string,
 	back: string,
 	key: number

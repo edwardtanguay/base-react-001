@@ -9,7 +9,7 @@ class Home extends Component {
 				<Helmet>
 					<title>{pageTitle}</title>
 				</Helmet>
-				<h2>Welcome</h2>
+				<h2 className="pageTitle">Welcome</h2>
 				<p>Welcome to this site.</p>
 			</div>
 		);

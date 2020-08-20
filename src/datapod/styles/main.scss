@@ -1,68 +1,91 @@
 $frame_background_color: #ddd;
 
 .App {
-    text-align: left;
+	text-align: left;
 }
 
 body {
-    background-color: #eee;
+	background-color: #eee;
 }
 
-.content {
-    padding: 15px;
-    margin: 70px 0 0 0;
+.pageContent {
+	padding: 15px 30px;
+	margin: 70px 0 0 0;
 }
 
 .footer {
-    position: fixed;
-    margin-right: 10px;
-    bottom: 0;
-    left: 0;
-    font-size: 0.8em;
-    color: #aaa;
-    font-style: italic;
-    text-align: right;
-    width: 100%;
-    background-color: $frame_background_color;
-    border-top: 1px solid #ccc;
-    height: 38px;
+	position: fixed;
+	margin-right: 10px;
+	bottom: 0;
+	left: 0;
+	font-size: 0.8em;
+	color: #aaa;
+	font-style: italic;
+	text-align: right;
+	width: 100%;
+	background-color: $frame_background_color;
+	border-top: 1px solid #ccc;
+	height: 38px;
 
-    .innerFooter {
-        margin: 10px 15px 15px 15px;
-    }
+	.innerFooter {
+		margin: 10px 15px 15px 15px;
+	}
+}
+
+h2.pageTitle {
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .flashcard {
-    margin: 0 0 10px 0;
+	margin: 0 0 10px 0;
+	display: flex;
+	justify-content: left;
 
-    .front {
-        font-weight: normal;
-        font-size: 0.8em;
-        cursor: pointer;
-    }
+	.infoArea {
+		margin-left: 5px;
+	}
 
-    .back {
-        color: brown;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 0.8em;
-    }
+	.category {
+		text-transform: uppercase;
+	}
+
+	.categoryKind {
+		font-size: 0.75em;
+		color: green;
+	}
+
+	.front {
+		font-weight: normal;
+		font-size: 0.8em;
+		cursor: pointer;
+	}
+
+	.back {
+		color: brown;
+		font-family: "Courier New", Courier, monospace;
+		font-size: 0.8em;
+		span {
+			background-color: #ddd;
+		}
+	}
 }
 
 .main {
-    display: flex;
-    flex-wrap: nowrap;
+	display: flex;
+	flex-wrap: nowrap;
 
-    width: 100%;
-    a {
-        color: black;
-    }
+	width: 100%;
+	a {
+		color: black;
+	}
 }
 
 a.active {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .appTitle {
-    color: #555;
-    font-weight: normal;
+	color: #555;
+	font-weight: normal;
 }
