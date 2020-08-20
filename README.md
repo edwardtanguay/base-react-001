@@ -1,6 +1,6 @@
 # base-react-001
 
-This is a template site that works as-is and enables you to quickly build a website/app with menu and multiple pages that functions both in a browser and on mobile devices, and can be published for free to a public URL hosted at Netlify.
+This is a template site that works as-is and enables you to quickly build upon it a website/app with menu and multiple pages that functions both in a browser and on mobile devices, and can be published for free to a public URL hosted at Netlify.
 
 This is a useful base site if you are new to React and want to start with a project that already has numerous useful technologies and features working together in a functional site that can be published online for free.
 
