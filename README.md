@@ -18,9 +18,9 @@ This is a useful base site if you are new to React and want to start with a proj
 - single page application with responsive Bootstrap/React-Router menu
 	- each page has an individually configurable title for browser tabs and bookmarking
 	- browser back button works
-- responsive Bootstrap Navbar with three sample pages
+	- three sample pages
+- one page reads from a JSON file and displays contents on page with graphics
 - pages have internal links from one page to the next
-- one page reads data from a JSON file and displays it on the page with graphics
 - a customizable favicon that shows up in bookmarks and browser tabs
 - TODO: refactor datapod directory out
 - TODO: flex display in flashcards
