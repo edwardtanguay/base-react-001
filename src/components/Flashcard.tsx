@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const cardBack = require('datapod/images/card_back.png');
+const cardBack = require('images/card_back.png');
 const qstr = require('../qtools/qstr');
 
 

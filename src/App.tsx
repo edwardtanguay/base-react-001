@@ -1,13 +1,13 @@
 import React from 'react';
-import './datapod/styles/main.scss';
-import Main from './datapod/components/Main';
+import './styles/main.scss';
+import Main from './components/Main';
 
 function App() {
-  return (
-    <div className="App">
-      <Main />
-    </div>
-  );
+	return (
+		<div className="App">
+			<Main />
+		</div>
+	);
 }
 
 export default App;
