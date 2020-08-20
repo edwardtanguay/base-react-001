@@ -1680,27 +1680,6 @@
 		"systemWhoCreated": "systemUnknown"
 	},
 	{
-		"back": "",
-		"category": "keyboard",
-		"extras": "",
-		"front": "ALT-42",
-		"id": 2708,
-		"importId": "alt 42_",
-		"kind": "ALT-number for asterisk",
-		"labels": "",
-		"lastLearned": "",
-		"lastTested": "",
-		"memoryHook": "",
-		"memoryStory": "",
-		"numberOfTimesLearned": 0,
-		"numberOfTimesTested": 0,
-		"pronunciation": "",
-		"rank": "2.5",
-		"status": "new",
-		"systemWhenCreated": "2020-05-10 16:50:41",
-		"systemWhoCreated": "systemUnknown"
-	},
-	{
 		"back": "Layer > New From Visible",
 		"category": "gimp",
 		"extras": "",
