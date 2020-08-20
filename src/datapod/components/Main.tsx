@@ -12,17 +12,17 @@ import News from './News';
 import Flashcards from './Flashcards';
 
 class Main extends Component {
-	
+
 	componentDidMount() {
 		// jQuery fix for Boostrap/Typescript/React/mobile navbar issue not closing correctly
-		const screenWidth = $(document).width() as number;		
+		const screenWidth = $(document).width() as number;
 		if (screenWidth < 600) {
 			$('.navbar .subMenuItem a').on('click', function () {
 				$('.navbar-toggler').click();
 			});
 		}
 	}
-	
+
 	render() {
 		return (
 			<BrowserRouter>
@@ -57,9 +57,12 @@ class Main extends Component {
 
 					<div>&nbsp;</div>
 					<div>&nbsp;</div>
-					<div className="footer version">
-						<div className="innerFooter">Made with Datapod for React 00.00.06</div>
-					</div>
+
+
+					<footer className="footer fixed-bottom">
+						<div className="left">Made in 2020.</div>
+						<div className="right">made with <a href="https://github.com/edwardtanguay/base-react-001">base-react-001-00.00.09</a></div>
+					</footer>
 				</div>
 			</BrowserRouter>
 		);

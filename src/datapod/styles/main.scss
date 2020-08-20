@@ -1,4 +1,6 @@
 $frame_background_color: #ddd;
+$text_muted: #aaa;
+$link_muted: #555;
 
 .App {
 	text-align: left;
@@ -11,25 +13,6 @@ body {
 .pageContent {
 	padding: 15px 30px;
 	margin: 70px 0 0 0;
-}
-
-.footer {
-	position: fixed;
-	margin-right: 10px;
-	bottom: 0;
-	left: 0;
-	font-size: 0.8em;
-	color: #aaa;
-	font-style: italic;
-	text-align: right;
-	width: 100%;
-	background-color: $frame_background_color;
-	border-top: 1px solid #ccc;
-	height: 38px;
-
-	.innerFooter {
-		margin: 10px 15px 15px 15px;
-	}
 }
 
 h2.pageTitle {
@@ -87,4 +70,26 @@ a.active {
 .appTitle {
 	color: #555;
 	font-weight: normal;
+}
+
+.footer {
+	background-color: #f8f9fa;
+	height: 2em;
+	padding-top: 4px;
+	color: $text_muted;
+	font-size: .9em;
+	display: flex;
+	justify-content: space-between;
+	a {
+		color: $link_muted;
+		text-decoration: underline;
+	}
+
+	.left {
+		padding-left: 10px;
+	}
+
+	.right {
+		padding-right: 10px;
+	}
 }

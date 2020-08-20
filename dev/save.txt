@@ -1,0 +1,24 @@
+.footer {
+	position: fixed;
+	margin-right: 10px;
+	bottom: 0;
+	left: 0;
+	font-size: 0.8em;
+	color: #aaa;
+	font-style: italic;
+	text-align: right;
+	width: 100%;
+	background-color: $frame_background_color;
+	border-top: 1px solid #ccc;
+	height: 38px;
+
+	.innerFooter {
+		margin: 10px 15px 15px 15px;
+	}
+}
+
+======================
+
+					<div className="footer version">
+						<div className="innerFooter">Made with Datapod for React 00.00.06</div>
+					</div>
