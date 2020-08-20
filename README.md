@@ -2,17 +2,26 @@
 
 This is a template site that works as-is and enables you to quickly build a website/app with menu and multiple pages that functions both in a browser and on mobile devices, and can be published for free to a public URL hosted at Netlify.
 
-The following technlogies are used and tested to work together:
+This is a good site if you are new to React and want to start with a site that has numerous useful technologies and features working together:
+
+**Technologies:**
 
 - React (based on create-react-app)
+- React Router
 - TypeScript
-- SASS
 - Bootstrap
+- SASS
 - JQuery
 - ESLint
-- React Router
-- Responsive Bootstrap Navbar with three sample pages
-- One page reads data from a JSON file and displays it on the page with graphics
+
+**Features:**
+- responsive Bootstrap Navbar with three sample pages
+- pages have internal links from one page to the next
+- one page reads data from a JSON file and displays it on the page with graphics
+- custom favicon works, shows up in bookmarks and browser tabs
+- TODO: title of individual pages show
+- TODO: refactor datapod directory out
+- TODO: flex display in flashcards
 
 ## Prerequisites
 

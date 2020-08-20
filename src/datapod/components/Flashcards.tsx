@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import FlashcardList from './FlashcardList';
 
-const flashcards = require('../data/custom/flashcards.json');
+const flashcards = require('../data/flashcards.json');
 
 
 interface MainState {
