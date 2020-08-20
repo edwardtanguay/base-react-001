@@ -25,6 +25,8 @@ This is a useful base site if you are new to React and want to start with a proj
 - helper library of useful functions (qtools)
 
 **Todo:**
+- [ ] node-ts running locally: https://riptutorial.com/typescript/example/28089/running-typescript-using-ts-node
+	- [ ] first on solo project
 - [ ] testing, documentation, question and clean up of qstr
 
 **Notes:**
