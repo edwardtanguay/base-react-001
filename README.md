@@ -23,10 +23,10 @@ This is a useful base site if you are new to React and want to start with a proj
 - pages have internal links from one page to the next
 - a customizable favicon that shows up in bookmarks and browser tabs
 - helper library of useful functions (qtools)
-- TODO: fix footer, date
-- TODO: fix margin
-- TODO: get custom directory to work
-- TODO: testing
+
+**Todo:**
+- [ ] get custom directory to work
+- [ ] testing
 
 ## Prerequisites
 
