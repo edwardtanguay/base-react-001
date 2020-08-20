@@ -25,7 +25,6 @@ This is a useful base site if you are new to React and want to start with a proj
 - helper library of useful functions (qtools)
 
 **Todo:**
-- [x] toggle on site click as well
 - [ ] get custom directory to work
 - [ ] testing
 
