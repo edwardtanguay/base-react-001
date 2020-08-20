@@ -5,6 +5,7 @@ import {
 	BrowserRouter
 } from 'react-router-dom';
 import $ from 'jquery';
+import Clock from 'react-live-clock';
 
 import Home from './Home';
 import Info from './Info';
@@ -60,7 +61,7 @@ class Main extends Component {
 
 
 					<footer className="footer fixed-bottom">
-						<div className="left">Made in 2020.</div>
+						<div className="left"> <Clock format="YYYY-MM-DD HH:mm:ss" ticking timezone="Berlin" /> </div>
 						<div className="right">made with <a href="https://github.com/edwardtanguay/base-react-001">base-react-001-00.00.09</a></div>
 					</footer>
 				</div>

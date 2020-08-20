@@ -1,3 +1,9 @@
+import moment from 'moment';
+const d = moment(new Date());
+const currentDateTime = d.format('YYYY-MM-DD HH:mm:ss');
+
+=========
+
 .footer {
 	position: fixed;
 	margin-right: 10px;

@@ -2,6 +2,11 @@ $frame_background_color: #ddd;
 $text_muted: #aaa;
 $link_muted: #555;
 
+html, body, #App, #App>div {
+	height: 100%
+  }
+
+
 .App {
 	text-align: left;
 }
