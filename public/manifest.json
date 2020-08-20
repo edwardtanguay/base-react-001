@@ -1,6 +1,6 @@
 {
-	"short_name": "Onespace",
-	"name": "Onespace App",
+	"short_name": "Website",
+	"name": "Website App",
 	"icons": [
 		{
 			"src": "globe.png",
@@ -9,7 +9,7 @@
 		}
 	],
 	"start_url": ".",
-	"display": "standalone",
+	"display": "minimal-ui",
 	"theme_color": "#dddddd",
-	"background_color": "beige"
+	"background_color": "#eeeeee"
 }

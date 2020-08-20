@@ -30,6 +30,7 @@ This is a useful base site if you are new to React and want to start with a proj
 **Notes:**
 - The `/public/_redirects` file is for Netlify can process URL paths correctly, e.g. if you send someone a link to `https://base-react-001.netlify.app/flashcards`.
 - The `/src/qtools` directory is a set of helpers tools organized by cateagory e.g. `qstr` = string parsing. Feel free to use any you find, or add any you don't. 
+- If you are going to publish to Netlify and use this site on a mobile device, see the `/public/manifest.json` file to change `short_name` and `name` and the colors (will determine the appearance of the first-time start screen), and also change `display` to `standalone`, `minimal-ui`, or `browser` to determine the UI-feel of your site, from app-like to browser-like.
 
 ## Prerequisites
 
