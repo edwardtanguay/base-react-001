@@ -189,27 +189,6 @@
 		"systemWhoCreated": "systemUnknown"
 	},
 	{
-		"back": "git clone https://github.com/edwardtanguay/testinfo.git test001",
-		"category": "git",
-		"extras": "",
-		"front": "how to get Github project locally",
-		"id": 1665,
-		"importId": "howToGetGithubProjectLocally_gitCloneHttpsgithubcomedwardtanguaytestinfogitTest1",
-		"kind": "command",
-		"labels": "",
-		"lastLearned": "2020-05-13 08:42:24",
-		"lastTested": "2020-05-13 08:42:24",
-		"memoryHook": "",
-		"memoryStory": "",
-		"numberOfTimesLearned": 1,
-		"numberOfTimesTested": 6,
-		"pronunciation": "",
-		"rank": "4.25",
-		"status": "learned",
-		"systemWhenCreated": "2019-10-29 07:03:51",
-		"systemWhoCreated": "systemUnknown"
-	},
-	{
 		"back": "git pull, git push",
 		"category": "git",
 		"extras": "",

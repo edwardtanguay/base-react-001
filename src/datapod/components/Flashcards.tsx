@@ -26,7 +26,7 @@ class Flashcards extends Component<{}, MainState> {
 	}
 
 	render() {
-		const filteredFlashcards = this.state.flashcards.filter(m => !m.back.includes('```'));
+		const filteredFlashcards = this.state.flashcards.filter(m => !m.back.includes('```') && !m.back.includes('http'));
 		return (
 			<div>
 				<Helmet>
