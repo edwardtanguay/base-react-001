@@ -43,9 +43,6 @@ npm install
 npm start
 ```
 
-**Notes:**
-- nnn
-
 ## How to publish to a free Netlify URL
 
 - push site to your GitHub
