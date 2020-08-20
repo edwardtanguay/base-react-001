@@ -39,7 +39,7 @@ npm start
 - click **`Site settings`**
 - click **`Change site name`**
 - give site a personal name, e.g. `mysite`
-- after 2 minutes, go to site in browser, e.g. `mysite.netlify.app`
+- after 2 minutes, go to site in browser or mobile device, e.g. `mysite.netlify.app`
 
 ## Developer
 
