@@ -2,7 +2,7 @@
 
 This is a template site that works as-is and enables you to quickly build a website/app with menu and multiple pages that functions both in a browser and on mobile devices, and can be published for free to a public URL hosted at Netlify.
 
-This is a good site if you are new to React and want to start with a project that already has numerous useful technologies and features working together in a functional site that can be published online for free.
+This is a useful base site if you are new to React and want to start with a project that already has numerous useful technologies and features working together in a functional site that can be published online for free.
 
 **Technologies:**
 
@@ -15,11 +15,13 @@ This is a good site if you are new to React and want to start with a project tha
 - ESLint
 
 **Features:**
+- single page application with responsive Bootstrap/React-Router menu
+	- each page has an individually configurable title for browser tabs and bookmarking
+	- browser back button works
 - responsive Bootstrap Navbar with three sample pages
 - pages have internal links from one page to the next
 - one page reads data from a JSON file and displays it on the page with graphics
-- custom favicon works, shows up in bookmarks and browser tabs
-- TODO: title of individual pages show
+- a customizable favicon that shows up in bookmarks and browser tabs
 - TODO: refactor datapod directory out
 - TODO: flex display in flashcards
 
