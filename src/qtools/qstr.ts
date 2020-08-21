@@ -22,8 +22,6 @@ export const replaceAll = (text: string, search: string, replace: string) => {
 	return text.split(search).join(replace);
 };
 
-
-
 /**
  * Check if a string is inside another string.
  * 
