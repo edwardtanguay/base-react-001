@@ -1,3 +1,22 @@
+const qstr = require('../qtools/qstr');
+const qdev = require('../qtools/qdev');
+const Choice = require('../systemClasses/choice.js');
+const Markdown = require("markdown").markdown;
+const OutlineTextParser = require('../systemTextParsers/outlineTextParser');
+const config = require('../system/config');
+
+exports.NEW_LINE = function (numberOfNewLines = 1) {
+	const endOfLine = '\n';
+	return endOfLine.repeat(numberOfNewLines);
+}
+
+exports.TAB = function (numberOfTabs = 1) {
+	const tab = "    "; // 4 spaces
+	return tab.repeat(numberOfTabs);
+}
+
+===========
+
 import moment from 'moment';
 const d = moment(new Date());
 const currentDateTime = d.format('YYYY-MM-DD HH:mm:ss');
