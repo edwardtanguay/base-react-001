@@ -8,7 +8,7 @@ import * as qstr from '../qtools/qstr';
  * "This is a sentence."
  */
 export const capitalizeFirstLetter = (line: string) => {
-	return 'x' + line.charAt(0).toUpperCase() + line.slice(1);
+	return line.charAt(0).toUpperCase() + line.slice(1);
 }
 
 /**
