@@ -1,3 +1,35 @@
+doesn't work: 
+
+const qstr = require('../qtools/qstr');
+
+module.exports = {
+	capitalizeFirstLetter: (line: string) => {
+		return line.charAt(0).toUpperCase() + line.slice(1);
+	},
+
+	replaceAll: (text: string, search: string, replace: string) => {
+		return text.split(search).join(replace);
+	}
+}
+
+
+===================
+
+const qstr = require('../qtools/qstr');
+
+export function capitalizeFirstLetter (line: string) {
+	return line.charAt(0).toUpperCase() + line.slice(1);
+}
+
+export function replaceAll (text: string, search: string, replace: string) {
+	return text.split(search).join(replace);
+};
+
+//export default { capitalizeFirstLetter, replaceAll };
+
+
+==============================
+
 const qstr = require('../qtools/qstr');
 const qdev = require('../qtools/qdev');
 const Choice = require('../systemClasses/choice.js');

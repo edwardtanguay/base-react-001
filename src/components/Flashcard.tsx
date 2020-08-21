@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-//import { qstr } from '../qtools/qstr';
-const qstr = require('../qtools/qstr');
+import * as qstr from '../qtools/qstr';
 
 const cardBack = require('images/card_back.png');
-
 
 interface IFlashcard {
 	category: string,
@@ -15,7 +13,7 @@ interface IFlashcard {
 class Flashcard extends Component<IFlashcard> {
 	render() {
 
-		const extra: string = qstr.capitalizeFirstLetter('test'); 
+		let extra: string = qstr.capitalizeFirstLetter('test');
 
 		return (
 			<div className="flashcard">
