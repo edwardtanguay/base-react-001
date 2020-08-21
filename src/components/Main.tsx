@@ -29,7 +29,7 @@ class Main extends Component {
 			<BrowserRouter>
 				<div>
 					<nav className="navbar navbar-expand-lg navbar-light fixed-top bg-light">
-						<a className="navbar-brand" href="#"><NavLink className="nav-link" exact to="/"><span className="appTitle">Site</span></NavLink></a>
+						<NavLink className="nav-link" exact to="/"><span className="appTitle">Site</span></NavLink>
 						<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 							<span className="navbar-toggler-icon" />
 						</button>
@@ -61,7 +61,7 @@ class Main extends Component {
 
 
 					<footer className="footer fixed-bottom">
-						<div className="left"> <Clock format="YYYY-MM-DD HH:mm:ss" ticking timezone="Berlin" /> </div>
+						<div className="left"> <Clock format="YYYY-MM-DD HH:mm:ss" ticking timezone="Europe/Berlin" /> </div>
 						<div className="right"><a href="https://github.com/edwardtanguay/base-react-001">base-react-001</a> ver. 00.00.18</div>
 					</footer>
 				</div>

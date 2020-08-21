@@ -1,4 +1,4 @@
-import * as qstr from '../qtools/qstr';
+// import * as qstr from '../qtools/qstr';
 
 /**
  * Capitalize the first letter of a string.
