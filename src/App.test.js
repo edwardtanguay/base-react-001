@@ -2,6 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import App from './App';
 import * as qstr from '../src/qtools/qstr';
+import * as qarr from '../src/qtools/qarr';
 
 test('site loads', () => {
 	const { getByText } = render(<App />);
@@ -39,4 +40,12 @@ test('qstr.endsWith() positive-find works', () => {
 
 test('qstr.endsWith() negative-find works', () => {
 	expect(qstr.endsWith('This is a test.', 'nnn')).toBeFalsy();
+});
+
+test('qarr.hasDuplicateNumbers() positive test work', () => {
+	expect(qarr.hasDuplicateNumbers([1, 2, 3, 4, 5, 6, 3])).toBeTruthy();
+});
+
+test('qarr.hasDuplicateNumbers() positive test work', () => {
+	expect(qarr.hasDuplicateNumbers([1, 2, 3, 4, 5, 6])).toBeFalsy();
 });
