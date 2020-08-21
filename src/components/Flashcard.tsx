@@ -12,7 +12,6 @@ interface IFlashcard {
 
 class Flashcard extends Component<IFlashcard> {
 	render() {
-
 		return (
 			<div className="flashcard">
 				<div className="cardArea">

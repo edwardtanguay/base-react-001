@@ -1,6 +1,7 @@
 {
 	"name": "onespace",
 	"version": "0.1.0",
+	"type": "module",
 	"private": true,
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
@@ -9,7 +10,7 @@
 		"@types/bootstrap": "^4.5.0",
 		"@types/jest": "^26.0.9",
 		"@types/jquery": "^3.5.1",
-		"@types/node": "^14.0.27",
+		"@types/node": "^14.6.0",
 		"@types/react-dom": "^16.9.8",
 		"@types/react-helmet": "^6.1.0",
 		"@types/react-router-dom": "^5.1.5",
@@ -35,7 +36,8 @@
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"dpbuild": "node src/dpodreact/scripts/buildNewVersion.js",
-		"eslint": "eslint --fix src/**/*.tsx"
+		"eslint": "eslint --fix src/**/*.tsx",
+		"tstest": "ts-node --skip-project dev/test_qstr.ts"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
