@@ -1,3 +1,9 @@
+
+	"type": "module",
+	
+=====================
+
+
 doesn't work: 
 
 const qstr = require('../qtools/qstr');

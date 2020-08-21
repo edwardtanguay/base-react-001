@@ -8,4 +8,4 @@ let test: string = qstr.capitalizeFirstLetter('nnn');
 
 let user: string = "James Russel";
 let message = hello(user);
-console.log(qstr.capitalizeFirstLetter(message));
+console.log(qstr.capitalizeFirstLetter(message) + ', it works.');
