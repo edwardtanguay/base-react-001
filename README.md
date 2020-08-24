@@ -13,6 +13,7 @@ This is a useful base site if you are new to React and want to start with a proj
 - SASS
 - JQuery
 - ESLint
+- Jest testing
 
 **Features:**
 - single page application with responsive Bootstrap/React-Router menu
@@ -23,11 +24,6 @@ This is a useful base site if you are new to React and want to start with a proj
 - pages have internal links from one page to the next
 - a customizable favicon that shows up in bookmarks and browser tabs
 - helper library of useful functions (qtools)
-
-**Todo:**
-- [ ] node-ts running locally: https://riptutorial.com/typescript/example/28089/running-typescript-using-ts-node
-	- [ ] first on solo project
-- [ ] testing, documentation, question and clean up of qstr
 
 **Notes:**
 - The `/public/_redirects` file is for Netlify can process URL paths correctly, e.g. if you send someone a link to `https://base-react-001.netlify.app/flashcards`.
@@ -62,9 +58,12 @@ npm start
 - give site a personal name, e.g. `mysite`
 - after 2 minutes, go to site in browser or mobile device, e.g. `mysite.netlify.app`
 
-## Developer
+## Current Developers
 
-* Edward Tanguay [@edwardtanguay](https://github.com/edwardtanguay) 📖
+* Edward Tanguay [@edwardtanguay](https://github.com/edwardtanguay)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
