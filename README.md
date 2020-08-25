@@ -36,14 +36,36 @@ This is a useful base site if you are new to React and want to start with a proj
 
 ## How to install 
 
-```
-npm install
-```
+- Install as local app
+	- in Explorer go to your web app directory, e.g. `c:\work\webs`
+	- open Git Bash
+	- `git clone https://github.com/edwardtanguay/base-react-001.git myapp`
+	- `cd myapp` (change into your app directory)
+	- `rm -rf .git` (delete the .git directory)
+	- `npm install` (install all modules from package.json file)
+- Test local app
+	- in VSCode, open your app directory, e.g. `c:\work\webs\myapp`
+	- in VSCode terminal: `npm start`
+	- Browser should open and show website at: http://localhost:3000
+	- `CTRL-C` to stop server
+- Create and push to local Git repository
+	- `git init`
+	- `git add -A`
+	- `git commit -m "first commit"`
+- Create and push to your own GitHub repository
+	- at GitHub, create repository e.g. `myapp`
+	- copy and paste instructions under "…or push an existing repository from the command line", e.g. 
+		- `git remote add origin https://github.com/myname/myapp.git`
+		- `git push -u origin master`
+
 ## How to use
 
-```
-npm start
-```
+- Start server with `npm start`, browser will open at `http://localhost:3000`
+- Make changes to files in `\src` to see changes immediately in browser
+- add, commit, and push to GitHub respository
+	- `git add -A`
+	- `git commit -m "second commit"
+	- `git push`
 
 ## How to publish to a free Netlify URL
 
