@@ -67,6 +67,10 @@ This is a useful base site if you are new to React and want to start with a proj
 	- `git commit -m "second commit"
 	- `git push`
 
+## How to run tests
+
+- `npm test`
+
 ## How to publish to a free Netlify URL
 
 - push site to your GitHub
